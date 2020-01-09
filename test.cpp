@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(){
-    cout << "강한육군 대한육군\n강한육군 대한육군" <<endl;
+    cout<< "Hello World!" <<endl;
+   
     return 0;
 }
+
