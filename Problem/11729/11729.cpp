@@ -8,8 +8,7 @@ void hanoi(int n, int start, int mid, int end){
     else{
         hanoi(n - 1, start, end, mid); //n-1 원판들 -> 2번기둥
         cout << start << " " << end << '\n'; //1번 기둥의 n번째 원판 -> 3번 기둥으로
-        hanoi(n - 1, mid, start, end);
-
+        hanoi(n - 1, mid, start, end); //2번 기둥의 n-1개의 원판들 -> 3번 기둥으로
     }
         
 }
